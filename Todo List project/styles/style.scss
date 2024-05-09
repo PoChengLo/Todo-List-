@@ -101,6 +101,21 @@ section {
   text-decoration: line-through;
 }
 
+div.sort {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  button {
+    background-color: rgb(226, 230, 119);
+    color: black;
+    cursor: pointer;
+    border: 0;
+    padding: 0.5rem 2rem;
+    margin: 1rem;
+    font-size: 1.75rem;
+  }
+}
+
 @keyframes scaleUp {
   from {
     transform: scale(0);
